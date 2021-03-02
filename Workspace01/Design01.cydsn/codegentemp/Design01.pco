@@ -1,5 +1,5 @@
 # Design01
-# 2021-03-02 03:12:18Z
+# 2021-03-02 20:24:11Z
 
 # IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
 dont_use_io iocell 1 0
@@ -11,8 +11,17 @@ set_location "ClockBlock" clockblockcell -1 -1 0
 set_io "MOTOR_1_left(0)" iocell 0 0
 set_io "LED(0)" iocell 2 1
 set_io "MOTOR_1_right(0)" iocell 0 1
-set_location "\PWM:PWMUDB:genblk1:ctrlreg\" 3 0 6
-set_location "\PWM:PWMUDB:sP8:pwmdp:u0\" 3 0 2
-set_location "\PWM:PWMUDB:runmode_enable\" 3 0 0 1
-set_location "Net_446" 3 0 0 0
-set_location "Net_464" 3 0 0 2
+set_io "MOTOR_2_right_1(0)" iocell 0 3
+set_io "MOTOR_2_left_1(0)" iocell 0 2
+set_location "\PWM:PWMUDB:genblk1:ctrlreg\" 3 3 6
+set_location "\PWM:PWMUDB:sP16:pwmdp:u0\" 2 3 2
+set_location "\PWM:PWMUDB:sP16:pwmdp:u1\" 3 3 2
+set_location "\PWM_2:PWMUDB:genblk1:ctrlreg\" 2 4 6
+set_location "\PWM_2:PWMUDB:sP16:pwmdp:u0\" 3 4 2
+set_location "\PWM_2:PWMUDB:sP16:pwmdp:u1\" 2 4 2
+set_location "\PWM:PWMUDB:runmode_enable\" 3 3 0 0
+set_location "Net_446" 3 3 0 1
+set_location "Net_464" 3 3 0 2
+set_location "\PWM_2:PWMUDB:runmode_enable\" 2 4 0 0
+set_location "Net_619" 2 4 0 2
+set_location "Net_618" 2 4 0 1
