@@ -252,6 +252,9 @@
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
       <Data key="1ccd6996-ea20-44db-acfd-06ad5f76bc20" value="LED" />
+      <Data key="8b2b065a-19ae-42b3-b041-ac7ca3caedf5" value="MOTOR_2_left_1" />
+      <Data key="9f55df2a-3da0-44dd-9646-cd7d9125815c" value="MOTOR_1_right" />
+      <Data key="92c5a8ff-d8a3-4ad4-bfba-1be24e040d8f" value="MOTOR_2_right_1" />
       <Data key="93ef20d8-9813-455b-b330-c28c57635070" value="MOTOR_1_left" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="MOTOR_1_right" />
     </Group>
@@ -3345,11 +3348,32 @@
         <Data key="Port Format" value="2,1" />
       </Group>
     </Group>
+    <Group key="8b2b065a-19ae-42b3-b041-ac7ca3caedf5">
+      <Group key="0">
+        <Data key="Port Format" value="0,2" />
+      </Group>
+    </Group>
+    <Group key="9f55df2a-3da0-44dd-9646-cd7d9125815c">
+      <Group key="0">
+        <Data key="Port Format" value="0,1" />
+      </Group>
+    </Group>
+    <Group key="92c5a8ff-d8a3-4ad4-bfba-1be24e040d8f">
+      <Group key="0">
+        <Data key="Port Format" value="0,3" />
+      </Group>
+    </Group>
+    <Group key="93ef20d8-9813-455b-b330-c28c57635070">
+      <Group key="0">
+        <Data key="Port Format" value="0,0" />
+      </Group>
+    </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
       <Group key="0">
         <Data key="Port Format" value="0,1" />
       </Group>
     </Group>
+    <Group key="UnAssigned Pins" />
   </Group>
   <Group key="PlaceDir">
     <Data key="count" value="0" />

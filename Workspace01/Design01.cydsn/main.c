@@ -18,6 +18,7 @@ int j=0;
 int main(void)
 {
     PWM_Start();
+    PWM_2_Start();
     Clock_1_Start();
     
     CyGlobalIntEnable; /* Enable global interrupts. */
@@ -25,58 +26,35 @@ int main(void)
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
     for(;;)
-    {
-        for(i=0; i<255; i++){
-            PWM_WriteCompare1(i);
-            CyDelay(10);
-        }
-        for(i=255; i>0; i--){
-            PWM_WriteCompare1(i);
-            CyDelay(10);
-        }
-            CyDelay(500);
-            LED_Write(1);
-            CyDelay(500);
-            LED_Write(0);
-            CyDelay(500);
-            LED_Write(1);
-            CyDelay(500);
-            LED_Write(0);
-        for(j=0; j<255; j++){
-            PWM_WriteCompare2(i);
-            CyDelay(10);
-        }
-        for(j=255; j>0; j--){
-            PWM_WriteCompare2(i);
-            CyDelay(10);
-        }
-            CyDelay(500);
-            LED_Write(1);
-            CyDelay(500);
-            LED_Write(0);
-            CyDelay(500);
-            LED_Write(1);
-            CyDelay(500);
-            LED_Write(0);
+    {       
+      
+   //MOTORES A LA DERECHA
         
-          
-         
-        /*for(i=0; i<255; i++){
-            PWM_WriteCompare2(i);
-            CyDelay(10);
-            for(i=255;1>0;i--){                
-                PWM_WriteCompare2(i);
-                CyDelay(10);
-            }
+        // MOTOR1
+        
+         for(i=0; i<510; i++)
+        {
+            PWM_WriteCompare1(i);    
+            CyDelay(10); 
             
-        }*/
-        
-        /*for(i=255;1>0;i--){
-            contador = contador-50;
-            PWM_WriteCompare(contador);
-            CyDelay(100);
+            //MOTOR 2
+           
+            for(i=0; i<310; i++){
+                PWM_2_WriteCompare1(i);
+                CyDelay(10);                   
+            }
+                PWM_2_WriteCompare1(510);
+                CyDelay(4000);
         }
-         */   
+        for(i=510; i>0; i--){
+            PWM_WriteCompare2(i);
+            CyDelay(10);
+            
+            //MOTOR 2
+            
+            
+         
+      
     }
 }
 
