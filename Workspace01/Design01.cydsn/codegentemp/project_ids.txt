@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|d0a18cb1-bcd8-40fc-a658-f8d470975b4d
+C:\Users\DAGA7\OneDrive\Old\Documentos\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|0eb6324d-8dfd-433b-a5b0-662de0aa3ec0
+C:\Users\DAGA7\OneDrive\Old\Documentos\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|90222651-7583-4566-a6df-f302302a6875
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|e605aabd-365a-4aef-b3e8-5b098652e54f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|d1aa4908-b611-44be-ba9c-0a747337685c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|d6d6aac1-7b2e-40d0-b535-d7baa1dc606a
+C:\Users\DAGA7\Desktop\secuencia motores\Workspace01\Design01.cydsn\Design01.cyprj|e641f47d-0619-42db-847c-28a2182e9a13
